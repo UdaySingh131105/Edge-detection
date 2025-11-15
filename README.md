@@ -1,8 +1,8 @@
- # 🔥 FlameEdgeViewer
+ # 🔥 FlamEdgeViewer
 
  **Real-time camera edge detection and preview (Android + OpenCV C++ + OpenGL ES + Web Viewer)**
 
- FlameEdgeViewer is a lightweight research/demo project that captures camera frames on Android, processes them in native C++ (via JNI + OpenCV), and renders results using an OpenGL ES texture pipeline. A minimal web viewer (Vite + TypeScript) is included for quick visualization of sample outputs.
+ FlamEdgeViewer is a lightweight research/demo project that captures camera frames on Android, processes them in native C++ (via JNI + OpenCV), and renders results using an OpenGL ES texture pipeline. A minimal web viewer (Vite + TypeScript) is included for quick visualization of sample outputs.
 
  ---
 
