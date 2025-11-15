@@ -60,4 +60,5 @@ dependencies {
 
     // Guava needed for ListenableFuture
     implementation "com.google.guava:guava:32.1.2-android"
+    implementation 'com.google.android.material:material:1.12.0'
 }

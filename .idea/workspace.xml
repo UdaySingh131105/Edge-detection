@@ -5,6 +5,11 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+        <config>
+          <theme>@style/Theme.FlamEdgeViewer</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.FlamEdgeViewer</theme>
@@ -17,420 +22,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3da054c4-65a4-48a4-8544-57e75d9faecd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/reply/cache-v2-2d1016ebebb34ec14353.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-3cb0885247d0c8c21ee3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-c2f3ae1ba2c97564cb27.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/reply/index-2025-11-15T16-20-52-0917.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.cmake/api/v1/reply/target-flamedgeviewer-Debug-002325b10f5713d47080.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/flamedgeviewer.dir/native-lib.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/additional_project_files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/android_gradle_build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/build_file_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/compile_commands.json.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/configure_fingerprint.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/metadata_generation_command.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/prefab_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/symbol_folder_index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/hash_key.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/debug/arm64-v8a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/4y536z67/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flamedgeviewer/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/calib3d.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/calib3d/calib3d.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/calib3d/calib3d_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/affine.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/async.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/bindings_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/bufferpool.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/check.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/core_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/block.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/border_interpolate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/color.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/common.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/datamov_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/detail/color_detail.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/detail/reduce.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/detail/reduce_key_val.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/detail/transform_detail.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/detail/type_traits_detail.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/detail/vec_distance_detail.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/dynamic_smem.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/emulation.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/filters.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/funcattrib.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/functional.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/limits.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/reduce.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/saturate_cast.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/scan.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/simd_functions.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/transform.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/type_traits.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/utility.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/vec_distance.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/vec_math.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/vec_traits.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/warp.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/warp_reduce.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda/warp_shuffle.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda_stream_accessor.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cuda_types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cv_cpu_dispatch.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cv_cpu_helper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cvdef.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cvstd.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cvstd.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/cvstd_wrapper.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/detail/async_promise.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/detail/dispatch_helper.impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/detail/exception_ptr.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/directx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/dualquaternion.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/dualquaternion.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/eigen.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/fast_math.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/hal.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/interface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_avx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_avx512.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_cpp.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_forward.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_lasx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_lsx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_msa.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_neon.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv071.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv_010_compat_non-policy.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv_010_compat_overloaded-non-policy.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv_011_compat.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv_compat_overloaded.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_rvv_scalable.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_sse.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_sse_em.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_vsx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/intrin_wasm.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/msa_macros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/hal/simd_utils.impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/mat.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/mat.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/matx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/matx.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/neon_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/ocl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/ocl_genbase.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/ocl_defs.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/opencl_info.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/opencl_svm.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/autogenerated/opencl_clblas.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/autogenerated/opencl_clfft.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_clblas.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_clfft.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_gl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_svm_20.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/opengl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/operations.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/optim.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/ovx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/parallel/backend/parallel_for.openmp.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/parallel/backend/parallel_for.tbb.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/parallel/parallel_backend.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/persistence.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/quaternion.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/quaternion.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/saturate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/simd_intrinsics.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/softfloat.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/sse_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/traits.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/types_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utility.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/allocator_stats.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/allocator_stats.impl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/filesystem.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/fp_control_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/instrumentation.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/logger.defines.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/logger.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/logtag.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/tls.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/utils/trace.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/va_intel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/version.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/core/vsx_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/cvconfig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/all_layers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/dict.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/dnn.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/dnn.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/layer.details.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/layer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/shape_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/utils/debug_utils.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/utils/inference_engine.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/dnn/version.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/features2d.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/features2d/features2d.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/features2d/hal/interface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/all_indices.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/allocator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/any.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/autotuned_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/composite_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/defines.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/dist.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/dummy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/dynamic_bitset.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/flann.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/flann_base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/general.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/ground_truth.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/hdf5.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/heap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/hierarchical_clustering_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/index_testing.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/kdtree_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/kdtree_single_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/kmeans_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/linear_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/logger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/lsh_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/lsh_table.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/matrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/miniflann.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/nn_index.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/object_factory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/params.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/random.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/result_set.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/sampling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/saving.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/simplex_downhill.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/flann/timer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/cpu/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/cpu/gcpukernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/cpu/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/cpu/ot.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/cpu/stereo.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/cpu/video.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/fluid/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/fluid/gfluidbuffer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/fluid/gfluidkernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/fluid/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/garg.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/garray.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gasync_context.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcall.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcommon.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcompiled.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcompiled_async.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcompoundkernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcomputation.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gcomputation_async.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gframe.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gkernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gmat.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gmetaarg.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gopaque.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gproto.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gpu/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gpu/ggpukernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gpu/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gscalar.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gstreaming.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gtransform.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gtype_traits.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/gtyped.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/bindings_ie.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/bindings_onnx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/bindings_ov.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/ie.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/onnx.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/ov.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/infer/parsers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/media.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/oak/infer.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/oak/oak.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/ocl/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/ocl/goclkernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/ocl/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/opencv_includes.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/operators.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/ot.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/assert.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/convert.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/cvdefs.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/exports.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/mat.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/saturate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/scalar.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/own/types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/plaidml/core.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/plaidml/gplaidmlkernel.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/plaidml/plaidml.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/python/python.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/render.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/render/render.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/render/render_types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/rmat.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/s11n.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/s11n/base.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/stereo.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/cap.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/desync.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/format.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/gstreamer/gstreamerpipeline.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/gstreamer/gstreamersource.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/meta.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/onevpl/accel_types.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/onevpl/cfg_params.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/onevpl/data_provider_interface.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/onevpl/default.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/onevpl/device_selector_interface.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/onevpl/source.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/queue_source.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/source.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/streaming/sync.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/any.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/compiler_hints.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/copy_through_move.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/optional.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/throw.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/type_traits.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/util.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/util/variant.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/gapi/video.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/highgui.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/highgui/highgui.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/highgui/highgui_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgcodecs.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgcodecs/imgcodecs.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgcodecs/imgcodecs_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgcodecs/ios.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgcodecs/legacy/constants_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgcodecs/macosx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/bindings.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/detail/gcgraph.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/detail/legacy.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/hal/hal.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/hal/interface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/imgproc.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/imgproc_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/segmentation.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/imgproc/types_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/ml.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/ml/ml.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/ml/ml.inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/aruco_board.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/aruco_detector.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/aruco_dictionary.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/barcode.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/charuco_detector.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/detection_based_tracker.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/face.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/graphical_code_detector.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/objdetect/objdetect.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/opencv.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/opencv_modules.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/photo.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/photo/cuda.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/photo/legacy/constants_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/photo/photo.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/autocalib.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/blenders.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/camera.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/exposure_compensate.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/matchers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/motion_estimators.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/seam_finders.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/timelapsers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/util.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/util_inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/warpers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/detail/warpers_inl.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/stitching/warpers.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/video.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/video/background_segm.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/video/detail/tracking.detail.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/video/legacy/constants_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/video/tracking.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/video/video.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/videoio.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/videoio/cap_ios.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/videoio/legacy/constants_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/videoio/registry.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/videoio/videoio.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/include/opencv2/videoio/videoio_c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/libs/arm64-v8a/libopencv_java4.so" beforeDir="false" afterPath="$PROJECT_DIR$/opencv/libs/arm64-v8a/libopencv_java4.so" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,7 +43,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=7571b7d9)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\lenovo\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -472,6 +75,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
