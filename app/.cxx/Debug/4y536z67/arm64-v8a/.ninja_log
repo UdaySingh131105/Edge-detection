@@ -1,0 +1,6 @@
+# ninja log v5
+9	1626	7849335518218716	CMakeFiles/flamedgeviewer.dir/native-lib.cpp.o	5970addc497dac0d
+1626	1750	7849335519542730	C:/Projects/FlamEdgeViewer/app/build/intermediates/cxx/Debug/4y536z67/obj/arm64-v8a/libflamedgeviewer.so	3a87b21d47daf019
+1	9	0	clean	8e2c11c2f5bf1eae
+5	2334	7849352005966966	CMakeFiles/flamedgeviewer.dir/native-lib.cpp.o	5970addc497dac0d
+2334	2495	7849352007557703	C:/Projects/FlamEdgeViewer/app/build/intermediates/cxx/Debug/4y536z67/obj/arm64-v8a/libflamedgeviewer.so	3a87b21d47daf019

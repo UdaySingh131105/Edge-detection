@@ -1,0 +1,1 @@
+C:\Projects\FlamEdgeViewer\app\src\main\cpp\CMakeLists.txt
